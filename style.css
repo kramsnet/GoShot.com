@@ -1,0 +1,166 @@
+body{
+    height: 738px;
+    background-image: linear-gradient(rgb(52, 98, 42), rgb(81, 189, 42), rgb(62, 255, 4));
+    background-size: cover;
+   
+}
+
+
+.house_emoji{
+    display: inline-block;
+}
+
+.fam_photo{
+    color: rgb(33, 138, 103);
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px 2px;
+    font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right,#91352c 10%, #b8f907 50%, #07f436 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: rgb(85, 85, 85);
+		background-clip: text;
+		text-emphasis-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+
+		
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+   
+    
+
+
+    ul{
+        
+        float: right;
+        margin-top: 30px;
+    
+    }
+    ul li{
+        
+        letter-spacing: 3px;
+        margin: 15px;
+        position: relative;
+    
+    }
+
+    
+    ul li{
+        display:inline-block;
+    }
+    
+    ul li a{
+        cursor: pointer;
+        background-color: rgba(106, 110, 109, 0.51);
+        border-radius: 20px;
+        text-decoration: none;
+        color: rgb(179, 255, 219);
+        padding: 5px 20px;
+        border: 2px solid rgb(156, 209, 12);
+        transition:  0.6s ease ;
+    }
+    
+    ul li a:hover{
+        background-color: rgb(69, 239, 126);
+        color: rgb(33, 128, 71);
+            
+
+    
+    }
+
+.line{
+    border: 1px solid rgb(67, 251, 150);
+    border-radius: 5px;
+    margin-top: -25px;
+}
+
+
+.input{
+    border-radius: 5px;
+    display:block;
+  position:absolute;
+  width: 500px;
+  height: 30px;
+  top: 40%;
+  left:50%;
+  margin-top:-40px; 
+  margin-left: -250px;
+}
+
+.marquee{
+    display: inline-block;
+    height: 350px;   
+    margin-top: 175px;
+    margin-left:20px;
+    cursor: pointer;
+    border-radius: 100px;
+    padding-right: 0px;
+    filter: blur(20px);
+    transition: all 0.3s linear;
+    
+}
+
+.marquee:hover{
+    filter: none;
+}
+
+
+
+.xmas{
+    height: 350px;
+    display: inline-block;
+    margin-top: 175px;
+    margin-left: 75px;
+    cursor: pointer;
+    border-radius: 100px;
+    filter: blur(20px);
+    transition: all 0.3s linear;
+      
+}
+
+.xmas:hover{
+    filter: none;
+}
+
+.estremos{
+    
+    border-radius: 100px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: 220px;
+    margin-left: 380px;
+    margin-right: 360px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    
+    
+    
+    
+    
+}
+
+.estremos:hover{
+    opacity: 0.7;
+    margin-bottom: 230px;
+
+    
+    
+}
+
+.estremos:active{
+    filter: blur(20px);
+    
+}
+
